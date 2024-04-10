@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Exercise 1</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=gambetta@1,2&f[]=general-sans@1,2&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="zoom-container" id="container">
+          <img src="./img/logo.png" alt="logo" class="logo" />
+        </div>
+        <ul>
+          <li><a href="#" class="fix1">Events</a></li>
+          <li><a href="./event.html" class="fix1">Teams</a></li>
+          <li><a href="./team.html" class="fix2">Contact</a></li>
+          <li class="search">
+            <a href="#" class="fix1"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+          <li class="hamburger">
+            <a href="#">
+              <div class="bar"></div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="teams">
+      <h1 class="teams-heading">Meet the Teams</h1>
+
+      <!-- Leads -->
+      <h2 class="team-title">Leads</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>President</h4>
+                <article class="short-description">
+                  <h3>Vinayak Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Vice-President</h4>
+                <article class="short-description">
+                  <h3>Sarvasv Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Secretary</h4>
+                <article class="short-description">
+                  <h3>Ansh Mehta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Strategist</h4>
+                <article class="short-description">
+                  <h3>Khushi Agarwal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>President</h4>
+                <article class="short-description">
+                  <h3>Vinayak Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Vice-President</h4>
+                <article class="short-description">
+                  <h3>Sarvasv Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Secretary</h4>
+                <article class="short-description">
+                  <h3>Ansh Mehta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Strategist</h4>
+                <article class="short-description">
+                  <h3>Khushi Agarwal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>President</h4>
+                <article class="short-description">
+                  <h3>Vinayak Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Vice-President</h4>
+                <article class="short-description">
+                  <h3>Sarvasv Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Secretary</h4>
+                <article class="short-description">
+                  <h3>Ansh Mehta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Strategist</h4>
+                <article class="short-description">
+                  <h3>Khushi Agarwal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Management -->
+      <h2 class="team-title">Management</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Management Head</h4>
+                <article class="short-description">
+                  <h3>Aditya Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Management Co-Head</h4>
+                <article class="short-description">
+                  <h3>Navkar Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Akkshat Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Kanak Sethi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Nandini Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vaishnavi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Aryan Diggal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Management Head</h4>
+                <article class="short-description">
+                  <h3>Aditya Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Management Co-Head</h4>
+                <article class="short-description">
+                  <h3>Navkar Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Akkshat Trivedi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Kanak Sethi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Nandini Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vaishnavi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Aryan Diggal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech -->
+      <h2 class="team-title">Tech</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Tech Head</h4>
+                <article class="short-description">
+                  <h3>Arindam Rawat</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Tech Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anshika</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Risshi Raj Sen</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vaibhav Kothari</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Keshav Agarwal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vansh Dassani</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Abhishek Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Roop Saha</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Tech Head</h4>
+                <article class="short-description">
+                  <h3>Arindam Rawat</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Tech Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anshika</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Risshi Raj Sen</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vaibhav Kothari</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Keshav Agarwal</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Vansh Dassani</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Abhishek Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Roop Saha</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content -->
+      <h2 class="team-title">Content</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Content Head</h4>
+                <article class="short-description">
+                  <h3>Akansha Nayak</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Content Co-Head</h4>
+                <article class="short-description">
+                  <h3>Rakshit Chauhan</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Khushi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Divyanshi Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Aditi Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Adarsh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Content Head</h4>
+                <article class="short-description">
+                  <h3>Akansha Nayak</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Content Co-Head</h4>
+                <article class="short-description">
+                  <h3>Rakshit Chauhan</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Khushi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Divyanshi Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Aditi Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Adarsh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="team-title">Research</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Research Head</h4>
+                <article class="short-description">
+                  <h3>Deeksha</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Research Co-Head</h4>
+                <article class="short-description">
+                  <h3>Awantika</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Protyoya Datta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Ansh Gupta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Saurabh Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Abhibhav Sharma</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Research Head</h4>
+                <article class="short-description">
+                  <h3>Deeksha</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Research Co-Head</h4>
+                <article class="short-description">
+                  <h3>Awantika</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Protyoya Datta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Ansh Gupta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Saurabh Singh</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Abhibhav Sharma</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="team-title">Social Media</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Social Media Head</h4>
+                <article class="short-description">
+                  <h3>Sarthak Anand</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Social Media Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anurag</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Tanishq Batra</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Arindam Rawat</h4>
+                <article class="short-description">
+                  <h3>Junior Core</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Pulkit Gambhir</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Navneet Mishra</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Social Media Head</h4>
+                <article class="short-description">
+                  <h3>Sarthak Anand</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Social Media Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anurag</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Tanishq Batra</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Arindam Rawat</h4>
+                <article class="short-description">
+                  <h3>Junior Core</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Pulkit Gambhir</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Navneet Mishra</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="team-title">Pr & Outreach</h2>
+
+      <section class="container mb-5">
+        <div class="marquee-wrapper" style="user-select: none">
+          <div class="marquee-content scrollingX">
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>PR & Outreach Head</h4>
+                <article class="short-description">
+                  <h3>Shivanshi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>PR & Outreach Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anshuman</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Arushi Shah</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Saransh Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Shivam Garg</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Harvansh Arora</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Namrata Gupta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>PR & Outreach Head</h4>
+                <article class="short-description">
+                  <h3>Shivanshi</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>PR & Outreach Co-Head</h4>
+                <article class="short-description">
+                  <h3>Anshuman</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Arushi Shah</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Saransh Jain</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Shivam Garg</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Harvansh Arora</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+            <div class="card-testimonial">
+              <article>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./img/mahiru.jpeg"
+                  />
+                  <img src="./img/mahiru.jpeg" alt="sample-one.jpeg" />
+                </picture>
+                <h4>Junior Core</h4>
+                <article class="short-description">
+                  <h3>Namrata Gupta</h3>
+                  <a target="_blank" href="Linkedin.com"
+                    ><img
+                      src="./icons8-linkedin-50.png"
+                      class="linkedin-logo"
+                      alt="linkedin"
+                  /></a>
+                </article>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="/public/js/main.js" defer></script>
+  </body>
+</html>
